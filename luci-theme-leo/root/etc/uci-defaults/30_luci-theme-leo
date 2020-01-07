@@ -1,0 +1,6 @@
+#!/bin/sh
+uci batch <<-EOF
+	set luci.themes.AdvancedTomatoleo=/luci-static/leo
+	commit luci
+EOF
+exit 0
